@@ -30,13 +30,26 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Describe the biggest difference between `.forEach` & `.map`.
 
+    .map returns a new array of elements without effecting the array it called upon.
+
 2. What is the difference between a function and a method?
+
+    A method is a function on an object, while a function is simply reusable code anywhere in your codebase.
 
 3. What is closure?
 
+    Enclosing a function within its local scope with references to the global scope.
+
 4. Describe the four rules of the 'this' keyword.
 
+    Window Binding -- when in global scope, "this" will refer to the entire Javascipt language and global object.
+    Implicit Binding -- This is the 'whatever is left of the dot' rule. 
+    New Binding -- This is OOP. A new object gets created.
+    Explicit Binding -- Explicitly using .apply , .call , or .bind.
+
 5. Why do we need super() in an extended class?
+
+    In order to inherit all of the props and methods of the parent class.
 
 ## Project Set up
 
