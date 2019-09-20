@@ -34,22 +34,22 @@ Edit this document to include your answers after each question. Make sure to lea
 
 2. What is the difference between a function and a method?
 
-    A method is a function on an object, while a function is simply reusable code anywhere in your codebase.
+    A method is a function on an object, while a function is simply reusable code anywhere in your program.
 
 3. What is closure?
 
-    Enclosing a function within its local scope with references to the global scope.
+    Enclosing a function within its local scope with the potential to reference all 'higher' scopes all the way to the global scope.
 
 4. Describe the four rules of the 'this' keyword.
 
-    Window Binding -- when in global scope, "this" will refer to the entire Javascipt language and global object.
-    Implicit Binding -- This is the 'whatever is left of the dot' rule. 
-    New Binding -- This is OOP. A new object gets created.
+    Window Binding -- when in global scope, "this" will refer to the entire window/console object.
+    Implicit Binding -- This is the 'whatever is left of the dot' rule. Using a method on an object, 'this' will refer to that object.
+    New Binding -- Constructor function/'new' keyword rule. 'this' keyword will refer to the new instance of the object being created.
     Explicit Binding -- Explicitly using .apply , .call , or .bind.
 
 5. Why do we need super() in an extended class?
 
-    In order to inherit all of the props and methods of the parent class.
+    In order to inherit all of the props and methods of the parent class. Extends keyword takes care of binding, and super() takes care of inheritance. 
 
 ## Project Set up
 
